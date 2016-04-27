@@ -55,16 +55,12 @@ F 3 "" H 5700 2550 50  0000 C CNN
 	1    5700 3750
 	1    0    0    -1  
 $EndComp
-Text GLabel 5450 3700 0    60   Input ~ 0
-D7
 Text GLabel 5450 3800 0    60   Input ~ 0
 SCK
 Text GLabel 5450 3900 0    60   Input ~ 0
 MISO
 Text GLabel 5950 3800 2    60   Input ~ 0
 MOSI
-Text GLabel 5950 3700 2    60   Input ~ 0
-D8
 Text GLabel 5950 3600 2    60   Input ~ 0
 3V3
 $Comp
@@ -232,4 +228,8 @@ F 3 "" H 5150 2450 50  0000 C CNN
 	1    5150 2450
 	1    0    0    -1  
 $EndComp
+Text GLabel 5450 3700 0    60   Input ~ 0
+CE
+Text GLabel 5950 3700 2    60   Input ~ 0
+CSN
 $EndSCHEMATC
